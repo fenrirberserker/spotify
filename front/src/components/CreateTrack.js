@@ -9,7 +9,8 @@ const CreateTrack = () => {
         artistName: '',
         albumName: '',
         albumId: '',
-        isExplicit: false
+        isExplicit: false,
+        playbackSeconds:''
     });
 
     const handleSubmit = async (e) => {

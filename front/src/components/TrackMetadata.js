@@ -33,6 +33,9 @@ const TrackMetadata = () => {
                     <h3>{trackData.name}</h3>
                     <p>Artist: {trackData.artistName}</p>
                     <p>Album: {trackData.albumName}</p>
+                    <p>AlbumId: {trackData.albumId}</p>
+                    <p>IsExplicit: {trackData.isExplicit}</p>
+                    <p>PlaybackSeconds: {trackData.playbackSeconds}</p>
                     <p>ISRC: {trackData.isrc}</p>
                 </div>
             )}
